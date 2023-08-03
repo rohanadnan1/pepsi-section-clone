@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    background-color: rgb(103, 103, 255);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    overflow: hidden;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    padding-top: 55px;
+}
+
+.img1{
+    width: 30vw;
+}
+
+.img2{
+    width: 30vw;
+}
+
+.first{
+    margin: 30px 20px;
+}
+
+.second{
+    margin: 20px 20px;
+}
+
+.img3{
+    overflow: hidden;
+    width: 68vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
